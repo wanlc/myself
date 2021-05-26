@@ -18,7 +18,7 @@
       class="inline-input"
       v-model="input"
       :fetch-suggestions="querySearch"
-      placeholder="请输入内容"
+      placeholder="请输入您的内容"
       :trigger-on-focus="false"
       @select="handleSelect"
       @input="change($event)"
